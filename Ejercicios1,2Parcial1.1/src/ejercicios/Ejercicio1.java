@@ -1,11 +1,11 @@
 package ejercicios;
 
-public class ejercicio1 {
+public class Ejercicio1 {
 
-    public static int calcularPuntaje(int[] numeros) {
+    public static int score(int[] numbers) {
         int puntajeTotal = 0;
-        
-        for (int numero : numeros) {
+
+        for (int numero : numbers) {
             if (numero == 5) {
                 puntajeTotal += 5;
             } else if (numero % 2 == 0) {
@@ -23,15 +23,11 @@ public class ejercicio1 {
         int[] arreglo2 = {17, 19, 21};
         int[] arreglo3 = {5, 5, 5};
 
-        System.out.println("Resultado 1: " + calcularPuntaje(arreglo1));
-        System.out.println("Resultado 2: " + calcularPuntaje(arreglo2));
-        System.out.println("Resultado 3: " + calcularPuntaje(arreglo3));
-
-        System.out.println("Complejidad temporal: O(n)");
-        System.out.println("Complejidad espacial: O(1)");
+        System.out.println("Resultado 1: " + score(arreglo1));
+        System.out.println("Resultado 2: " + score(arreglo2));
+        System.out.println("Resultado 3: " + score(arreglo3));
     }
 }
-
 
 //Justificación breve:
 //Es O(n) en tiempo porque solo se hace una pasada sobre el arreglo.

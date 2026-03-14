@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="consumer-mq1/src/main/java"/>
+	<classpathentry kind="src" path="producer-mq1/src/main/java"/>
+	<classpathentry kind="output" path="consumer-mq1/target/classes"/>
+</classpath>
